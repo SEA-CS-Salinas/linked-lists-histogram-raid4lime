@@ -1,7 +1,7 @@
-//(c) A+ Computer Science
+v//(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Casey Martinez
 
 import java.util.*;
 import static java.lang.System.*;
@@ -19,6 +19,15 @@ public class HistoList
 	//addLetter will bump up the count if let already exists
 	public void addLetter(char let)
 	{
+	    count = 0;
+	    while(front != let)
+	    {
+	        front = front.getNext();
+	    }
+	    boolean(char let == true)
+	    {
+	       count++; 
+	    }
 
 
 
@@ -32,16 +41,13 @@ public class HistoList
 	//returns the index pos of let in the list if let exists
 	public int indexOf(char let)
 	{
-
-
-
-
-
-
-
-
-
-		return -1;
+	    if( char let == true)
+	    {
+	        getLetterCount();
+	    }
+	    else(){
+		return null;
+	    }
 	}
 
 	//returns a reference to the node at spot
