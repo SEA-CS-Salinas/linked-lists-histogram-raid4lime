@@ -20,9 +20,9 @@ public class HistoList
 	//addLetter will bump up the count if let already exists
 	public void addLetter(char let)
 	{
-	    HistoNode current = front; // Start with front of list
+	    HistoNode current = front; // Start with front of node*
 
-	    // Looks through list to see if letter already exits
+	    // Looks through node to see if letter already exits*
 	    while(current != null) 
 	    {
 	         if (current.getLetter() == let) 
